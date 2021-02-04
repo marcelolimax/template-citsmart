@@ -12,9 +12,9 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <b>Enviar para:</b> nucleoapoio.contratos@centralit.com.br<br>
 <b>Cópia para:</b> colaboradores.ce@centralit.com.br<br>
 <br>
-<b>ASSUNTO: [Central IT]: </b><?php echo $_POST['tipo'];?> ATI<br>
+<b>ASSUNTO: [Central IT]: </b><?php echo $_POST['tipo'];?> (ATI)<br>
 OU<br>
-<b>ASSUNTO: [Central IT]: </b><?php echo $_POST['tipo'];?> SDS<br>
+<b>ASSUNTO: [Central IT]: </b><?php echo $_POST['tipo'];?> (SDS)<br>
 <br>	
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=ProgId content=Word.Document>
