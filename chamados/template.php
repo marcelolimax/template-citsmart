@@ -1,6 +1,3 @@
-//<?php echo var_dump($_POST); ?>
-//<?php print_r($_POST); ?>
-
 <html xmlns:v="urn:schemas-microsoft-com:vml"
 xmlns:o="urn:schemas-microsoft-com:office:office"
 xmlns:w="urn:schemas-microsoft-com:office:word"
