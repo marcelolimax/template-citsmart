@@ -16,7 +16,7 @@
           'id' => "$id",
       ];
       
-      $ch = curl_init('http://homologacao-php.app.tjpe.gov.br/chamados/citsmart/citsmart_executor.php');
+      $ch = curl_init('http://play.app.tjpe.jus.br/chamados/citsmart/citsmart_executor.php');
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
       curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
       
