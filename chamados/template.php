@@ -178,7 +178,7 @@ div.WordSection1
   <td width=1036 style='width:780.7pt;border-top:none;border-left:none;
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:51.6pt'>
-  <textarea id="descricao" name="descricao" rows="4" cols="50"><?php echo $_POST['descricao']; ?></textarea>
+  <?php echo $_POST['descricao']; ?>
   </td>
  </tr>
  <tr style='mso-yfti-irow:3'>
