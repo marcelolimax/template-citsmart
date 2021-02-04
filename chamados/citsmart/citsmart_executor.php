@@ -18,7 +18,7 @@
    $xmlNode = simplexml_load_file("$url");
    $arrayData = xmlToArray($xmlNode);
 
-   var_dump($arrayData);
+   #var_dump($arrayData);
 
    //Procurando Situação
    $situacao=$arrayData['tables']['table']['record']['field'][74]['$'];
@@ -102,7 +102,7 @@
        'causa' => "$chamado[Causa]",
    ];
    
-   $ch = curl_init('http://homologacao-php.app.tjpe.gov.br/chamados/action_page.php');
+   $ch = curl_init('http://homologacao-php.app.tjpe.gov.br/chamados/index_chamados.php');
    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
    curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
    
@@ -113,6 +113,6 @@
    curl_close($ch);
    
    // do anything you want with your response
-   #var_dump($response);
+   var_dump($response);
 
 ?>
