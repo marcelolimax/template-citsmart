@@ -5,7 +5,7 @@ xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
 xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
-TIPO DO TICKET: <?php echo $_POST['tipo']; ?>
+TIPO DO TICKET: <?php echo $_POST['Tipo']; ?>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
