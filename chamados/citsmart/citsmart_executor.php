@@ -102,7 +102,7 @@
        'causa' => "$chamado[Causa]",
    ];
    
-   $ch = curl_init('http://homologacao-php.app.tjpe.gov.br/chamados/index_chamados.php');
+   $ch = curl_init('http://play.app.tjpe.jus.br/chamados/index_chamados.php');
    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
    curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
    
