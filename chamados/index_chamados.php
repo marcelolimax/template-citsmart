@@ -152,22 +152,22 @@ div.WordSection1
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:119.6pt'>
   <form action="/action_page.php" method="post">
-  <input type="checkbox" id="RDC" name="RDC" value="RDC"><label for="RDC">RDC - ADMINISTRAÇÃO DE REDE DO DATA CENTER</label><br>
-  <input type="checkbox" id="RL" name="RL" value="RL"><label for="RL">RL - ADMINISTRAÇÃO DE REDE LOCAL ATI</label><br>
-  <input type="checkbox" id="SI" name="SI" value="SI"><label for="SI">SI – ADMINISTRAÇÃO DE SOLUÇÃO DE SEGURANÇA DA INFORMAÇÃO</label><br>
-  <input type="checkbox" id="SOC" name="SOC" value="SOC"><label for="SOC">SOC - SUPORTE E ADMINISTRAÇÃO EM SISTEMAS OPERACIONAIS - CRÍTICOS</label><br>
-  <input type="checkbox" id="SONC" name="SONC" value="SONC"><label for="SONC">SONC - SUPORTE E ADMINISTRAÇÃO EM SISTEMAS OPERACIONAIS – NÃO CRÍTICOS</label><br>
-  <input type="checkbox" id="ZBX" name="ZBX" value="ZBX"><label for="ZBX">ZBX - ADMINISTRAÇÃO DE SOLUÇÃO DE MONITORAMENTO – ZABBIX</label><br>
-  <input type="checkbox" id="BDC" name="BDC" value="BDC"><label for="BDC">BDC - ADMINISTRAÇÃO DE SISTEMAS DE GERENCIAMENTO DE BANCO DE DADOS - CRÍTICOS</label><br>
-  <input type="checkbox" id="BDNC" name="BDNC" value="BDNC"><label for="BDNC">BDNC - ADMINISTRAÇÃO DE SISTEMAS DE GERENCIAMENTO DE BANCO DE DADOS – NÃO CRÍTICOS</label><br>
-  <input type="checkbox" id="VM" name="VM" value="VM"><label for="VM">VM - ADMINISTRAÇÃO DE MÁQUINAS VIRTUAIS E VCENTER</label><br>
-  <input type="checkbox" id="HOST" name="HOST" value="HOST"><label for="HOST">HOST - ADMINISTRAÇÃO DE HOSTS-HYPERVISOR</label><br>
-  <input type="checkbox" id="ST" name="ST" value="ST"><label for="ST">ST - ADMINISTRAÇÃO DE INFRAESTRUTURA DE ARMAZENAMENTO (STORAGE</label><br>
-  <input type="checkbox" id="VPX" name="VPX" value="VPX"><label for="VPX">VPX - ADMINISTRAÇÃO INFRAESTRUTURA DE ARMAZENAMENTO (STORAGE - VPLEX)</label><br>
-  <input type="checkbox" id="SAN" name="SAN" value="SAN"><label for="SAN">SAN - ADMINISTRAÇÃO INFRAESTRUTURA DE ARMAZENAMENTO E CONECTIVIDADE DE DADOS (STORAGE E REDE SAN)</label><br>
-  <input type="checkbox" id="DNS" name="DNS" value="DNS"><label for="DNS">DNS - ADMINISTRAÇÃO DA ZONA PE.GOV.BR, DNS, BIND E DJBDNS</label><br>
-  <input type="checkbox" id="EMAIL" name="EMAIL" value="EMAIL"><label for="EMAIL">EMAIL - ADMINISTRAÇÃO DE SOLUÇÃO DE E-MAIL CORPORATIVO</label><br>
-  <input type="checkbox" id="DRIVE" name="DRIVE" value="DRIVE"><label for="DRIVE">DRIVE - ADMINISTRAÇÃO DE SOLUÇÃO DE DRIVE CORPORATIVO – ONWCLOUD</label><br>
+  <input type="checkbox" id="RDC" name="RDC" value="RDC"<?php if(isset($_GET['RDC'])) {echo checked} ?>  ><label for="RDC">RDC - ADMINISTRAÇÃO DE REDE DO DATA CENTER</label><br>
+  <input type="checkbox" id="RL" name="RL" value="RL"<?php if(isset($_GET['RL'])) {echo checked} ?>  ><label for="RL">RL - ADMINISTRAÇÃO DE REDE LOCAL ATI</label><br>
+  <input type="checkbox" id="SI" name="SI" value="SI"<?php if(isset($_GET['SI'])) {echo checked} ?>  ><label for="SI">SI – ADMINISTRAÇÃO DE SOLUÇÃO DE SEGURANÇA DA INFORMAÇÃO</label><br>
+  <input type="checkbox" id="SOC" name="SOC" value="SOC"<?php if(isset($_GET['SOC'])) {echo checked} ?>  ><label for="SOC">SOC - SUPORTE E ADMINISTRAÇÃO EM SISTEMAS OPERACIONAIS - CRÍTICOS</label><br>
+  <input type="checkbox" id="SONC" name="SONC" value="SONC"<?php if(isset($_GET['SONC'])) {echo checked} ?>  ><label for="SONC">SONC - SUPORTE E ADMINISTRAÇÃO EM SISTEMAS OPERACIONAIS – NÃO CRÍTICOS</label><br>
+  <input type="checkbox" id="ZBX" name="ZBX" value="ZBX"<?php if(isset($_GET['ZBX'])) {echo checked} ?>  ><label for="ZBX">ZBX - ADMINISTRAÇÃO DE SOLUÇÃO DE MONITORAMENTO – ZABBIX</label><br>
+  <input type="checkbox" id="BDC" name="BDC" value="BDC"<?php if(isset($_GET['BDC'])) {echo checked} ?>  ><label for="BDC">BDC - ADMINISTRAÇÃO DE SISTEMAS DE GERENCIAMENTO DE BANCO DE DADOS - CRÍTICOS</label><br>
+  <input type="checkbox" id="BDNC" name="BDNC" value="BDNC"<?php if(isset($_GET['BDNC'])) {echo checked} ?>  ><label for="BDNC">BDNC - ADMINISTRAÇÃO DE SISTEMAS DE GERENCIAMENTO DE BANCO DE DADOS – NÃO CRÍTICOS</label><br>
+  <input type="checkbox" id="VM" name="VM" value="VM"<?php if(isset($_GET['VM'])) {echo checked} ?>  ><label for="VM">VM - ADMINISTRAÇÃO DE MÁQUINAS VIRTUAIS E VCENTER</label><br>
+  <input type="checkbox" id="HOST" name="HOST" value="HOST"<?php if(isset($_GET['HOST'])) {echo checked} ?>  ><label for="HOST">HOST - ADMINISTRAÇÃO DE HOSTS-HYPERVISOR</label><br>
+  <input type="checkbox" id="ST" name="ST" value="ST"<?php if(isset($_GET['ST'])) {echo checked} ?>  ><label for="ST">ST - ADMINISTRAÇÃO DE INFRAESTRUTURA DE ARMAZENAMENTO (STORAGE</label><br>
+  <input type="checkbox" id="VPX" name="VPX" value="VPX"<?php if(isset($_GET['VPX'])) {echo checked} ?>  ><label for="VPX">VPX - ADMINISTRAÇÃO INFRAESTRUTURA DE ARMAZENAMENTO (STORAGE - VPLEX)</label><br>
+  <input type="checkbox" id="SAN" name="SAN" value="SAN"<?php if(isset($_GET['SAN'])) {echo checked} ?>  ><label for="SAN">SAN - ADMINISTRAÇÃO INFRAESTRUTURA DE ARMAZENAMENTO E CONECTIVIDADE DE DADOS (STORAGE E REDE SAN)</label><br>
+  <input type="checkbox" id="DNS" name="DNS" value="DNS"<?php if(isset($_GET['DNS'])) {echo checked} ?>  ><label for="DNS">DNS - ADMINISTRAÇÃO DA ZONA PE.GOV.BR, DNS, BIND E DJBDNS</label><br>
+  <input type="checkbox" id="EMAIL" name="EMAIL" value="EMAIL"<?php if(isset($_GET['EMAIL'])) {echo checked} ?>  ><label for="EMAIL">EMAIL - ADMINISTRAÇÃO DE SOLUÇÃO DE E-MAIL CORPORATIVO</label><br>
+  <input type="checkbox" id="DRIVE" name="DRIVE" value="DRIVE"<?php if(isset($_GET['DRIVE'])) {echo checked} ?>  ><label for="DRIVE">DRIVE - ADMINISTRAÇÃO DE SOLUÇÃO DE DRIVE CORPORATIVO – ONWCLOUD</label><br>
  </tr>
  <tr style='mso-yfti-irow:2;height:51.6pt'>
   <td width=220 style='width:161.55pt;border:solid windowtext 1.0pt;border-top:
@@ -199,21 +199,21 @@ div.WordSection1
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
   
-  <input type="checkbox" id="ticket" name="ticket" value="ticket">
+  <input type="checkbox" id="ticket" name="ticket" value="ticket" <?php if(isset($_GET['ticket'])) {echo checked} ?>>
   <label for="ticket">CSATI - Nº :</label><textarea id="numticket" name="numticket" rows="1" cols="10"><?php echo $_POST['chamado']; ?></textarea><br>
-  <input type="checkbox" id="NOC" name="NOC" value="NOC">
+  <input type="checkbox" id="NOC" name="NOC" value="NOC"<?php if(isset($_GET['NOC'])) {echo checked} ?>>
   <label for="NOC">NOC - Sobreaviso</label><br>
-  <input type="checkbox" id="bacula" name="bacula" value="bacula">
+  <input type="checkbox" id="bacula" name="bacula" value="bacula"<?php if(isset($_GET['bacula'])) {echo checked} ?>>
   <label for="bacula">Bacula</label><br>
-  <input type="checkbox" id="Zabbix" name="Zabbix" value="Zabbix">
+  <input type="checkbox" id="Zabbix" name="Zabbix" value="Zabbix"<?php if(isset($_GET['Zabbix'])) {echo checked} ?>>
   <label for="Zabbix">Zabbix</label><br>
-  <input type="checkbox" id="ard" name="ard" value="ard">
+  <input type="checkbox" id="ard" name="ard" value="ard"<?php if(isset($_GET['ard'])) {echo checked} ?>>
   <label for="ard">Análise Relatório Diário</label><br>
-  <input type="checkbox" id="ad" name="ad" value="ad">
+  <input type="checkbox" id="ad" name="ad" value="ad"<?php if(isset($_GET['ad'])) {echo checked} ?>>
   <label for="ad">Análise de Desempenho</label><br>
-  <input type="checkbox" id="as" name="as" value="as">
+  <input type="checkbox" id="as" name="as" value="as"<?php if(isset($_GET['as'])) {echo checked} ?>>
   <label for="as">Análise de Segurança</label><br>
-  Outros:<textarea id="outros" name="outros" rows="1" cols="10"> </textarea>
+  Outros:<textarea id="outros" name="outros" rows="1" cols="10"<?php if(isset($_GET['outros'])) {echo checked} ?>> </textarea>
   
   
   </td>
@@ -232,7 +232,7 @@ div.WordSection1
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
   
-  <input type="checkbox" id="sc" name="sc" value="sc">
+  <input type="checkbox" id="sc" name="sc" value="sc"<?php if(isset($_GET['sc'])) {echo checked} ?>>
   <label for="sc"><A HREF=http://200.238.105.172/mediawiki/index.php/Servi%C3%A7os_Criticos_Contratuais>Serviço Crítico</a></label><br>
 
   </td>
@@ -293,7 +293,7 @@ div.WordSection1
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt'>
 
-  <input type="checkbox" id="wiki" name="wiki" value="wiki">
+  <input type="checkbox" id="wiki" name="wiki" value="wiki"<?php if(isset($_GET['wiki'])) {echo checked} ?>>
   <label for="wiki">Disponível na Wiki :</label><textarea id="wikiurl" name="wikiurl" rows="1" cols="30"></textarea><br>
   </td>
  </tr>
