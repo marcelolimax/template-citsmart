@@ -264,7 +264,7 @@ div.WordSection1
   <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
   11.55pt'><b><span style='font-family:"Bookman Old Style",serif;mso-fareast-font-family:
   "Times New Roman";mso-bidi-font-family:Calibri;color:black;mso-fareast-language:
-  PT-BR'>SoluÃ§Ã£o/RecomendaÃ§Ã£o</span></b><span style='mso-ascii-font-family:
+  PT-BR'>Solução/Recomendação</span></b><span style='mso-ascii-font-family:
   Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
   mso-bidi-font-family:Calibri;color:#201F1E;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
   </td>
@@ -273,9 +273,8 @@ div.WordSection1
   padding:0cm 5.4pt 0cm 5.4pt'>
 
   <textarea id="solucao" name="solucao" rows="10" cols="80">
-    <?php echo $_POST['causa']; ?> 
-    <br>
-    <?php echo $_POST['solucao']; ?>
+  <?php echo $_POST['causa']; ?> 
+  <?php echo $_POST['solucao']; ?>
   </textarea><br>
 
   </td>
