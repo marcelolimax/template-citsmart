@@ -234,7 +234,7 @@ div.WordSection1
   padding:0cm 5.4pt 0cm 5.4pt'>
   
   <input type="checkbox" id="sc" name="sc" value="sc">
-  <label for="sc">Serviço Crítico</label><br>
+  <label for="sc"><A HREF=http://200.238.105.172/mediawiki/index.php/Servi%C3%A7os_Criticos_Contratuais>Serviço Crítico</a></label><br>
 
   </td>
  </tr>
