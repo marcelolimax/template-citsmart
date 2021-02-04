@@ -93,7 +93,7 @@
        'solucao' => "$chamado[Resposta]",
    ];
    
-   $ch = curl_init('http://127.0.0.1/chamados/action_page.php');
+   $ch = curl_init('http://homologacao-php.app.tjpe.gov.br/chamados/action_page.php');
    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
    curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
    
