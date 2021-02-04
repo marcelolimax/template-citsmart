@@ -148,22 +148,38 @@ div.WordSection1
   <td width=1036 style='width:780.7pt;border-top:none;border-left:none;
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:119.6pt'>
-  <input type="checkbox" id="RDC" name="RDC" value="RDC" <?php if(isset($_POST['RDC'])) {echo "checked";}?>><label for="RDC">RDC - ADMINISTRAÇÃO DE REDE DO DATA CENTER</label><br>
-  <input type="checkbox" id="RL" name="RL" value="RL" <?php if(isset($_POST['RL'])) {echo "checked";}?><label for="RL">RL - ADMINISTRAÇÃO DE REDE LOCAL ATI</label><br>
-  <input type="checkbox" id="SI" name="SI" value="SI" <?php if(isset($_POST['SI'])) {echo "checked";}?><label for="SI">SI – ADMINISTRAÇÃO DE SOLUÇÃO DE SEGURANÇA DA INFORMAÇÃO</label><br>
-  <input type="checkbox" id="SOC" name="SOC" value="SOC" <?php if(isset($_POST['SOC'])) {echo "checked";}?><label for="SOC">SOC - SUPORTE E ADMINISTRAÇÃO EM SISTEMAS OPERACIONAIS - CRÍTICOS</label><br>
-  <input type="checkbox" id="SONC" name="SONC" value="SONC" <?php if(isset($_POST['SONC'])) {echo "checked";}?><label for="SONC">SONC - SUPORTE E ADMINISTRAÇÃO EM SISTEMAS OPERACIONAIS – NÃO CRÍTICOS</label><br>
-  <input type="checkbox" id="ZBX" name="ZBX" value="ZBX" <?php if(isset($_POST['ZBX'])) {echo "checked";}?><label for="ZBX">ZBX - ADMINISTRAÇÃO DE SOLUÇÃO DE MONITORAMENTO – ZABBIX</label><br>
-  <input type="checkbox" id="BDC" name="BDC" value="BDC" <?php if(isset($_POST['BDC'])) {echo "checked";}?><label for="BDC">BDC - ADMINISTRAÇÃO DE SISTEMAS DE GERENCIAMENTO DE BANCO DE DADOS - CRÍTICOS</label><br>
-  <input type="checkbox" id="BDNC" name="BDNC" value="BDNC" <?php if(isset($_POST['BDNC'])) {echo "checked";}?><label for="BDNC">BDNC - ADMINISTRAÇÃO DE SISTEMAS DE GERENCIAMENTO DE BANCO DE DADOS – NÃO CRÍTICOS</label><br>
-  <input type="checkbox" id="VM" name="VM" value="VM" <?php if(isset($_POST['VM'])) {echo "checked";}?><label for="VM">VM - ADMINISTRAÇÃO DE MÁQUINAS VIRTUAIS E VCENTER</label><br>
-  <input type="checkbox" id="HOST" name="HOST" value="HOST" <?php if(isset($_POST['HOST'])) {echo "checked";}?><label for="HOST">HOST - ADMINISTRAÇÃO DE HOSTS-HYPERVISOR</label><br>
-  <input type="checkbox" id="ST" name="ST" value="ST" <?php if(isset($_POST['ST'])) {echo "checked";}?><label for="ST">ST - ADMINISTRAÇÃO DE INFRAESTRUTURA DE ARMAZENAMENTO (STORAGE</label><br>
-  <input type="checkbox" id="VPX" name="VPX" value="VPX" <?php if(isset($_POST['VPX'])) {echo "checked";}?><label for="VPX">VPX - ADMINISTRAÇÃO INFRAESTRUTURA DE ARMAZENAMENTO (STORAGE - VPLEX)</label><br>
-  <input type="checkbox" id="SAN" name="SAN" value="SAN" <?php if(isset($_POST['SAN'])) {echo "checked";}?><label for="SAN">SAN - ADMINISTRAÇÃO INFRAESTRUTURA DE ARMAZENAMENTO E CONECTIVIDADE DE DADOS (STORAGE E REDE SAN)</label><br>
-  <input type="checkbox" id="DNS" name="DNS" value="DNS" <?php if(isset($_POST['DNS'])) {echo "checked";}?><label for="DNS">DNS - ADMINISTRAÇÃO DA ZONA PE.GOV.BR, DNS, BIND E DJBDNS</label><br>
-  <input type="checkbox" id="EMAIL" name="EMAIL" value="EMAIL" <?php if(isset($_POST['EMAIL'])) {echo "checked";}?><label for="EMAIL">EMAIL - ADMINISTRAÇÃO DE SOLUÇÃO DE E-MAIL CORPORATIVO</label><br>
-  <input type="checkbox" id="DRIVE" name="DRIVE" value="DRIVE" <?php if(isset($_POST['DRIVE'])) {echo "checked";}?><label for="DRIVE">DRIVE - ADMINISTRAÇÃO DE SOLUÇÃO DE DRIVE CORPORATIVO – ONWCLOUD</label><br>
+  <input type="checkbox" id="RDC" name="RDC" value="RDC" <?php if(isset($_POST['RDC'])) {echo "checked";}?>>
+  <label for="RDC">RDC - ADMINISTRAÇÃO DE REDE DO DATA CENTER</label><br>
+  <input type="checkbox" id="RL" name="RL" value="RL" <?php if(isset($_POST['RL'])) {echo "checked";}?>>
+  <label for="RL">RL - ADMINISTRAÇÃO DE REDE LOCAL ATI</label><br>
+  <input type="checkbox" id="SI" name="SI" value="SI" <?php if(isset($_POST['SI'])) {echo "checked";}?>>
+  <label for="SI">SI – ADMINISTRAÇÃO DE SOLUÇÃO DE SEGURANÇA DA INFORMAÇÃO</label><br>
+  <input type="checkbox" id="SOC" name="SOC" value="SOC" <?php if(isset($_POST['SOC'])) {echo "checked";}?>>
+  <label for="SOC">SOC - SUPORTE E ADMINISTRAÇÃO EM SISTEMAS OPERACIONAIS - CRÍTICOS</label><br>
+  <input type="checkbox" id="SONC" name="SONC" value="SONC" <?php if(isset($_POST['SONC'])) {echo "checked";}?>>
+  <label for="SONC">SONC - SUPORTE E ADMINISTRAÇÃO EM SISTEMAS OPERACIONAIS – NÃO CRÍTICOS</label><br>
+  <input type="checkbox" id="ZBX" name="ZBX" value="ZBX" <?php if(isset($_POST['ZBX'])) {echo "checked";}?>>
+  <label for="ZBX">ZBX - ADMINISTRAÇÃO DE SOLUÇÃO DE MONITORAMENTO – ZABBIX</label><br>
+  <input type="checkbox" id="BDC" name="BDC" value="BDC" <?php if(isset($_POST['BDC'])) {echo "checked";}?>>
+  <label for="BDC">BDC - ADMINISTRAÇÃO DE SISTEMAS DE GERENCIAMENTO DE BANCO DE DADOS - CRÍTICOS</label><br>
+  <input type="checkbox" id="BDNC" name="BDNC" value="BDNC" <?php if(isset($_POST['BDNC'])) {echo "checked";}?>>
+  <label for="BDNC">BDNC - ADMINISTRAÇÃO DE SISTEMAS DE GERENCIAMENTO DE BANCO DE DADOS – NÃO CRÍTICOS</label><br>
+  <input type="checkbox" id="VM" name="VM" value="VM" <?php if(isset($_POST['VM'])) {echo "checked";}?>>
+  <label for="VM">VM - ADMINISTRAÇÃO DE MÁQUINAS VIRTUAIS E VCENTER</label><br>
+  <input type="checkbox" id="HOST" name="HOST" value="HOST" <?php if(isset($_POST['HOST'])) {echo "checked";}?>>
+  <label for="HOST">HOST - ADMINISTRAÇÃO DE HOSTS-HYPERVISOR</label><br>
+  <input type="checkbox" id="ST" name="ST" value="ST" <?php if(isset($_POST['ST'])) {echo "checked";}?>>
+  <label for="ST">ST - ADMINISTRAÇÃO DE INFRAESTRUTURA DE ARMAZENAMENTO (STORAGE</label><br>
+  <input type="checkbox" id="VPX" name="VPX" value="VPX" <?php if(isset($_POST['VPX'])) {echo "checked";}?>>
+  <label for="VPX">VPX - ADMINISTRAÇÃO INFRAESTRUTURA DE ARMAZENAMENTO (STORAGE - VPLEX)</label><br>
+  <input type="checkbox" id="SAN" name="SAN" value="SAN" <?php if(isset($_POST['SAN'])) {echo "checked";}?>>
+  <label for="SAN">SAN - ADMINISTRAÇÃO INFRAESTRUTURA DE ARMAZENAMENTO E CONECTIVIDADE DE DADOS (STORAGE E REDE SAN)</label><br>
+  <input type="checkbox" id="DNS" name="DNS" value="DNS" <?php if(isset($_POST['DNS'])) {echo "checked";}?>>
+  <label for="DNS">DNS - ADMINISTRAÇÃO DA ZONA PE.GOV.BR, DNS, BIND E DJBDNS</label><br>
+  <input type="checkbox" id="EMAIL" name="EMAIL" value="EMAIL" <?php if(isset($_POST['EMAIL'])) {echo "checked";}?>>
+  <label for="EMAIL">EMAIL - ADMINISTRAÇÃO DE SOLUÇÃO DE E-MAIL CORPORATIVO</label><br>
+  <input type="checkbox" id="DRIVE" name="DRIVE" value="DRIVE" <?php if(isset($_POST['DRIVE'])) {echo "checked";}?>>
+  <label for="DRIVE">DRIVE - ADMINISTRAÇÃO DE SOLUÇÃO DE DRIVE CORPORATIVO – ONWCLOUD</label><br>
  </tr>
  <tr style='mso-yfti-irow:2;height:51.6pt'>
   <td width=220 style='width:161.55pt;border:solid windowtext 1.0pt;border-top:
