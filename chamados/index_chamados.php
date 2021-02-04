@@ -9,9 +9,9 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="Central%20IT_arquivos/filelist.xml">
-<link rel=themeData href="Central%20IT_arquivos/themedata.thmx">
-<link rel=colorSchemeMapping href="Central%20IT_arquivos/colorschememapping.xml">
+//<link rel=File-List href="Central%20IT_arquivos/filelist.xml">
+//<link rel=themeData href="Central%20IT_arquivos/themedata.thmx">
+//<link rel=colorSchemeMapping href="Central%20IT_arquivos/colorschememapping.xml">
 <style>
 <!--
  /* Font Definitions */
@@ -132,7 +132,7 @@ div.WordSection1
   <p class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
   text-align:center;mso-line-height-alt:11.55pt'><b><span style='font-size:
   18.0pt;font-family:"Helvetica",sans-serif;mso-fareast-font-family:"Times New Roman";
-  color:#0DB0BF;mso-fareast-language:PT-BR'>Central IT  Registro de
+  color:#0DB0BF;mso-fareast-language:PT-BR'>Central IT - Registro de
   Atendimento</span></b><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
   "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;
   color:#201F1E;mso-fareast-language:PT-BR'><o:p></o:p></span></p>
