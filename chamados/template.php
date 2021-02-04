@@ -5,11 +5,12 @@ xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
 xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
-TIPO DO TICKET: <?php echo $_POST['Tipo']; ?>
+<?php echo var_dump($_POST); ?><br><br><br><br>
+<b>TIPO DO TICKET: </b><?php echo $_POST['Tipo']; ?><br>
 
-ASSUNTO: [Central IT]: <?php echo $_POST['Tipo'];?> ATI
-OU
-ASSUNTO: [Central IT]: <?php echo $_POST['Tipo'];?> SDS
+<b>ASSUNTO: [Central IT]: </b><?php echo $_POST['Tipo'];?> ATI<br>
+OU<br>
+<b>ASSUNTO: [Central IT]: </b><?php echo $_POST['Tipo'];?> SDS<br>
 	
 <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
 <meta name=ProgId content=Word.Document>
