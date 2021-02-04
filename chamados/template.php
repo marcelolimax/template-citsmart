@@ -5,7 +5,8 @@ xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
 xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
-//<?php echo var_dump($_POST); ?><br><br><br><br>
+<!--<?php echo var_dump($_POST); ?><br><br><br><br>
+-->
 <b>TIPO DO TICKET: </b><?php echo $_POST['tipo']; ?><br>
 <br>
 <b>Enviar para:</b> nucleoapoio.contratos@centralit.com.br<br>
