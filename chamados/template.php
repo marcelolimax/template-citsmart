@@ -212,7 +212,7 @@ div.WordSection1
   padding:0cm 5.4pt 0cm 5.4pt'>
   
   <input type="checkbox" id="ticket" name="ticket" value="ticket" <?php if(isset($_POST['ticket'])) {echo "checked";}?>>
-  <label for="ticket">CSATI - Nº :</label><?php echo $_POST['ticket']; ?><br>
+  <label for="ticket">CSATI - Nº :</label><?php echo $_POST['numticket']; ?><br>
   <input type="checkbox" id="NOC" name="NOC" value="NOC" <?php if(isset($_POST['NOC'])) {echo "checked";}?>>
   <label for="NOC">NOC - Sobreaviso</label><br>
   <input type="checkbox" id="bacula" name="bacula" value="bacula" <?php if(isset($_POST['bacula'])) {echo "checked";}?>>
