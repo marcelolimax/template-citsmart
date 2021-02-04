@@ -9,9 +9,6 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
-//<link rel=File-List href="Central%20IT_arquivos/filelist.xml">
-//<link rel=themeData href="Central%20IT_arquivos/themedata.thmx">
-//<link rel=colorSchemeMapping href="Central%20IT_arquivos/colorschememapping.xml">
 <style>
 <!--
  /* Font Definitions */
