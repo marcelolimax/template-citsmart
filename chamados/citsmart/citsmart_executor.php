@@ -8,10 +8,17 @@
    $parametro="solicitacaoservico";
    $url="$domain/citsmart/services/data/$parametro/$id";
 
+   $context = stream_context_create(array('ssl'=>array(
+    'verify_peer' => false, 
+        "verify_peer_name"=>false
+	    )));
+
+   libxml_set_streams_context($context);
+
    $xmlNode = simplexml_load_file("$url");
    $arrayData = xmlToArray($xmlNode);
 
-   var_dump($xmlNode);
+   var_dump($arrayData);
 
    //Procurando Situação
    $situacao=$arrayData['tables']['table']['record']['field'][74]['$'];
@@ -85,12 +92,14 @@
    $chamado[Fim]=$arrayData['tables']['table']['record']['field'][16]['$'];
    $chamado[Situacao]=$situacao2;
    $chamado[Resposta]=$arrayData['tables']['table']['record']['field'][14]['$'];
+   $chamado[Causa]=$arrayData['tables']['table']['record']['field'][31]['$'];
 
    $post = [
        'chamado' => "$chamado[Id]",
        'tipo' => "$chamado[Tipo]",
        'descricao' => "$chamado[Descricao]",
        'solucao' => "$chamado[Resposta]",
+       'causa' => "$chamado[Causa]",
    ];
    
    $ch = curl_init('http://homologacao-php.app.tjpe.gov.br/chamados/action_page.php');
@@ -104,6 +113,6 @@
    curl_close($ch);
    
    // do anything you want with your response
-   var_dump($response);
+   #var_dump($response);
 
 ?>
