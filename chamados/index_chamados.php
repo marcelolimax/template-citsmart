@@ -214,7 +214,7 @@ div.WordSection1
   <label for="as">Análise de Segurança</label><br>
   <input type="checkbox" id="outros" name="outros" value="outros"<?php if(isset($_POST['outros'])) {echo checked;} ?>>
   Outros:<textarea id="outrostext" name="outrostext" rows="1" cols="10"> </textarea>
-  <input id="tipo" name="tipo" value="<?php echo $_POST['tipo']; ?>">
+  <input type="hidden" id="tipo" name="tipo" value="<?php echo $_POST['tipo']; ?>">
   
   </td>
  </tr>
