@@ -64,7 +64,7 @@
    $xmlNode3 = simplexml_load_file("$url");
    $arrayData3 = xmlToArray($xmlNode3);
    //Procurando responsavel
-   $parametro=usuario;
+   $parametro="usuario";
    $id=$arrayData['tables']['table']['record']['field'][70]['$'];
    $url="$domain/citsmart/services/data/$parametro/$id";
 
@@ -72,7 +72,7 @@
    $arrayData4 = xmlToArray($xmlNode4);
 
    //Procurando solicitante
-   $parametro=usuario;
+   $parametro="usuario";
    $id=$arrayData['tables']['table']['record']['field'][7]['$'];
    $url="$domain/citsmart/services/data/$parametro/$id";
 
@@ -80,19 +80,19 @@
    $arrayData5 = xmlToArray($xmlNode5);
 
    //Organizando Array
-   $chamado[Id]=$arrayData['tables']['table']['record']['field'][0]['$'];
-   $chamado[Tipo]=$arrayData3['tables']['table']['record']['field'][1]['$'];
-   $chamado[Grupo]=$arrayData2['tables']['table']['record']['field'][2]['$'];
-   $chamado[Descricao]=$arrayData['tables']['table']['record']['field'][58]['$'];
-   $chamado[Responsavel]=$arrayData4['tables']['table']['record']['field'][5]['$'];
-   $chamado[Solicitante]=$arrayData5['tables']['table']['record']['field'][5]['$'];
-   $chamado[Inicio]=$arrayData['tables']['table']['record']['field'][15]['$'];
-   $chamado[Captura]=$arrayData['tables']['table']['record']['field'][54]['$'];
-   $chamado[Limite]=$arrayData['tables']['table']['record']['field'][10]['$'];
-   $chamado[Fim]=$arrayData['tables']['table']['record']['field'][16]['$'];
-   $chamado[Situacao]=$situacao2;
-   $chamado[Resposta]=$arrayData['tables']['table']['record']['field'][14]['$'];
-   $chamado[Causa]=$arrayData['tables']['table']['record']['field'][31]['$'];
+   $chamado['Id']=$arrayData['tables']['table']['record']['field'][0]['$'];
+   $chamado['Tipo']=$arrayData3['tables']['table']['record']['field'][1]['$'];
+   $chamado['Grupo']=$arrayData2['tables']['table']['record']['field'][2]['$'];
+   $chamado['Descricao']=$arrayData['tables']['table']['record']['field'][58]['$'];
+   $chamado['Responsavel']=$arrayData4['tables']['table']['record']['field'][5]['$'];
+   $chamado['Solicitante']=$arrayData5['tables']['table']['record']['field'][5]['$'];
+   $chamado['Inicio']=$arrayData['tables']['table']['record']['field'][15]['$'];
+   $chamado['Captura']=$arrayData['tables']['table']['record']['field'][54]['$'];
+   $chamado['Limite']=$arrayData['tables']['table']['record']['field'][10]['$'];
+   $chamado['Fim']=$arrayData['tables']['table']['record']['field'][16]['$'];
+   $chamado['Situacao']=$situacao2;
+   $chamado['Resposta']=$arrayData['tables']['table']['record']['field'][14]['$'];
+   $chamado['Causa']=$arrayData['tables']['table']['record']['field'][30]['$'];
 
    $post = [
        'chamado' => "$chamado[Id]",
