@@ -151,24 +151,23 @@ div.WordSection1
   <td width=1036 style='width:780.7pt;border-top:none;border-left:none;
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:119.6pt'>
-  <form action="/action_page.php" method="get">
-  <input type="checkbox" id="RA" name="RDC" value="RDC"><label for="RDC">RDC - ADMINISTRAÇÃO DE REDE DO DATA CENTER</label><br>
-  <input type="checkbox" id="RA" name="RL" value="RL"><label for="RL">RL - ADMINISTRAÇÃO DE REDE LOCAL ATI</label><br>
-  <input type="checkbox" id="RA" name="SI" value="SI"><label for="SI">SI - ADMINISTRAÇÃO DE SOLUÇÃO DE SEGURANÇA DA INFORMAÇÃO</label><br>
-  <input type="checkbox" id="RA" name="SOC" value="SOC"><label for="SOC">SOC - SUPORTE E ADMINISTRAÇÃO EM SISTEMAS OPERACIONAIS - CRÍTICOS</label><br>
-  <input type="checkbox" id="RA" name="SONC" value="SONC"><label for="SONC">SONC - SUPORTE E ADMINISTRAÇÃO EM SISTEMAS OPERACIONAIS - NÃO CRÍTICOS</label><br>
-  <input type="checkbox" id="RA" name="ZBX" value="ZBX"><label for="ZBX">ZBX - ADMINISTRAÇÃO DE SOLUÇÃO DE MONITORAMENTO - ZABBIX</label><br>
-  <input type="checkbox" id="RA" name="BDC" value="BDC"><label for="BDC">BDC - ADMINISTRAÇÃO DE SISTEMAS DE GERENCIAMENTO DE BANCO DE DADOS - CRÍTICOS</label><br>
-  <input type="checkbox" id="RA" name="BDNC" value="BDNC"><label for="BDNC">BDNC - ADMINISTRAÇÃO DE SISTEMAS DE GERENCIAMENTO DE BANCO DE DADOS - NÃO CRÍTICOS</label><br>
-  <input type="checkbox" id="RA" name="VM" value="VM"><label for="VM">VM - ADMINISTRAÇÃO DE MÁQUINAS VIRTUAIS E VCENTER</label><br>
-  <input type="checkbox" id="RA" name="HOST" value="HOST"><label for="HOST">HOST - ADMINISTRAÇÃO DE HOSTS-HYPERVISOR</label><br>
-  <input type="checkbox" id="RA" name="ST" value="ST"><label for="ST">ST - ADMINISTRAÇÃO DE INFRAESTRUTURA DE ARMAZENAMENTO (STORAGE</label><br>
-  <input type="checkbox" id="RA" name="VPX" value="VPX"><label for="VPX">VPX - ADMINISTRAÇÃO INFRAESTRUTURA DE ARMAZENAMENTO (STORAGE - VPLEX)</label><br>
-  <input type="checkbox" id="RA" name="SAN" value="SAN"><label for="SAN">SAN - ADMINISTRAÇÃO INFRAESTRUTURA DE ARMAZENAMENTO E CONECTIVIDADE DE DADOS (STORAGE E REDE SAN)</label><br>
-  <input type="checkbox" id="RA" name="DNS" value="DNS"><label for="DNS">DNS - ADMINISTRAÇÃO DA ZONA PE.GOV.BR, DNS, BIND E DJBDNS</label><br>
-  <input type="checkbox" id="RA" name="EMAIL" value="EMAIL"><label for="EMAIL">EMAIL - ADMINISTRAÇÃO DE SOLUÇÃO DE E-MAIL CORPORATIVO</label><br>
-  <input type="checkbox" id="RA" name="DRIVE" value="DRIVE"><label for="DRIVE">DRIVE - ADMINISTRAÇÃO DE SOLUÇÃO DE DRIVE CORPORATIVO - ONWCLOUD</label><br>
-  </td>
+  <form action="/action_page.php" method="post">
+  <input type="checkbox" id="RDC" name="RDC" value="RDC"><label for="RDC">RDC - ADMINISTRAÇÃO DE REDE DO DATA CENTER</label><br>
+  <input type="checkbox" id="RL" name="RL" value="RL"><label for="RL">RL - ADMINISTRAÇÃO DE REDE LOCAL ATI</label><br>
+  <input type="checkbox" id="SI" name="SI" value="SI"><label for="SI">SI – ADMINISTRAÇÃO DE SOLUÇÃO DE SEGURANÇA DA INFORMAÇÃO</label><br>
+  <input type="checkbox" id="SOC" name="SOC" value="SOC"><label for="SOC">SOC - SUPORTE E ADMINISTRAÇÃO EM SISTEMAS OPERACIONAIS - CRÍTICOS</label><br>
+  <input type="checkbox" id="SONC" name="SONC" value="SONC"><label for="SONC">SONC - SUPORTE E ADMINISTRAÇÃO EM SISTEMAS OPERACIONAIS – NÃO CRÍTICOS</label><br>
+  <input type="checkbox" id="ZBX" name="ZBX" value="ZBX"><label for="ZBX">ZBX - ADMINISTRAÇÃO DE SOLUÇÃO DE MONITORAMENTO – ZABBIX</label><br>
+  <input type="checkbox" id="BDC" name="BDC" value="BDC"><label for="BDC">BDC - ADMINISTRAÇÃO DE SISTEMAS DE GERENCIAMENTO DE BANCO DE DADOS - CRÍTICOS</label><br>
+  <input type="checkbox" id="BDNC" name="BDNC" value="BDNC"><label for="BDNC">BDNC - ADMINISTRAÇÃO DE SISTEMAS DE GERENCIAMENTO DE BANCO DE DADOS – NÃO CRÍTICOS</label><br>
+  <input type="checkbox" id="VM" name="VM" value="VM"><label for="VM">VM - ADMINISTRAÇÃO DE MÁQUINAS VIRTUAIS E VCENTER</label><br>
+  <input type="checkbox" id="HOST" name="HOST" value="HOST"><label for="HOST">HOST - ADMINISTRAÇÃO DE HOSTS-HYPERVISOR</label><br>
+  <input type="checkbox" id="ST" name="ST" value="ST"><label for="ST">ST - ADMINISTRAÇÃO DE INFRAESTRUTURA DE ARMAZENAMENTO (STORAGE</label><br>
+  <input type="checkbox" id="VPX" name="VPX" value="VPX"><label for="VPX">VPX - ADMINISTRAÇÃO INFRAESTRUTURA DE ARMAZENAMENTO (STORAGE - VPLEX)</label><br>
+  <input type="checkbox" id="SAN" name="SAN" value="SAN"><label for="SAN">SAN - ADMINISTRAÇÃO INFRAESTRUTURA DE ARMAZENAMENTO E CONECTIVIDADE DE DADOS (STORAGE E REDE SAN)</label><br>
+  <input type="checkbox" id="DNS" name="DNS" value="DNS"><label for="DNS">DNS - ADMINISTRAÇÃO DA ZONA PE.GOV.BR, DNS, BIND E DJBDNS</label><br>
+  <input type="checkbox" id="EMAIL" name="EMAIL" value="EMAIL"><label for="EMAIL">EMAIL - ADMINISTRAÇÃO DE SOLUÇÃO DE E-MAIL CORPORATIVO</label><br>
+  <input type="checkbox" id="DRIVE" name="DRIVE" value="DRIVE"><label for="DRIVE">DRIVE - ADMINISTRAÇÃO DE SOLUÇÃO DE DRIVE CORPORATIVO – ONWCLOUD</label><br>
  </tr>
  <tr style='mso-yfti-irow:2;height:51.6pt'>
   <td width=220 style='width:161.55pt;border:solid windowtext 1.0pt;border-top:
