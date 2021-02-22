@@ -159,6 +159,8 @@ div.WordSection1
   <td width=1036 style='width:780.7pt;border-top:none;border-left:none;
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:119.6pt'>
+  <input type="checkbox" id="BKP" name="BKP" value="BKP"<?php if(isset($_POST['BKP'])) {echo "checked";}?>>
+  <label for="BKP">BKP - ADMINISTRAÇÃO DE SOLUÇÃO DE BACKUP – BÁCULA</label><br>
   <input type="checkbox" id="RDC" name="RDC" value="RDC" <?php if(isset($_POST['RDC'])) {echo "checked";}?>>
   <label for="RDC">RDC - ADMINISTRAÇÃO DE REDE DO DATA CENTER</label><br>
   <input type="checkbox" id="RL" name="RL" value="RL" <?php if(isset($_POST['RL'])) {echo "checked";}?>>
