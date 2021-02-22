@@ -151,6 +151,7 @@ div.WordSection1
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:0cm 5.4pt 0cm 5.4pt;height:119.6pt'>
   <form action="/chamados/template.php" method="post">
+  <input type="checkbox" id="BKP" name="BKP" value="BKP"<?php if(isset($_POST['BKP'])) {echo checked;} ?>  ><label for="BKP">BKP - ADMINISTRAÇÃO DE SOLUÇÃO DE BACKUP – BÁCULA</label><br>
   <input type="checkbox" id="RDC" name="RDC" value="RDC"<?php if(isset($_POST['RDC'])) {echo checked;} ?>  ><label for="RDC">RDC - ADMINISTRAÇÃO DE REDE DO DATA CENTER</label><br>
   <input type="checkbox" id="RL" name="RL" value="RL"<?php if(isset($_POST['RL'])) {echo checked;} ?>  ><label for="RL">RL - ADMINISTRAÇÃO DE REDE LOCAL ATI</label><br>
   <input type="checkbox" id="SI" name="SI" value="SI"<?php if(isset($_POST['SI'])) {echo checked;} ?>  ><label for="SI">SI – ADMINISTRAÇÃO DE SOLUÇÃO DE SEGURANÇA DA INFORMAÇÃO</label><br>
